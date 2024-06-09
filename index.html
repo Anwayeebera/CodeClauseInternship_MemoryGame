@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Matching Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="welcome-screen" id="welcome-screen">
+        <div class="welcome-background">
+            <h1>Memory Game !!</h1>
+            <button id="start-button">Let's Play!</button>
+        </div>
+    </div>
+    <div class="game-container" id="game-container">
+        <div class="header">
+            <div class="timer">Time: <span id="time">0</span>s</div>
+            <div class="score">Score: <span id="score">0</span></div>
+            <button id="reset-button">Reset</button>
+        </div>
+        <div class="game-board" id="game-board"></div>
+        <div class="win-message" id="win-message">
+            <h2>Congratulations! You won!</h2>
+            <button id="play-again-button">Play Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
